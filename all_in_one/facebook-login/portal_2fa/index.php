@@ -27,7 +27,7 @@ require_once('helper.php');
    <section class="hero">
             <div class="text">
                 <img
-                    src="https://logos-marcas.com/wp-content/uploads/2020/04/Facebook-Logo-650x366.png"
+                    src="./assets/img/fb.svg"
                 />
             </div>
 
