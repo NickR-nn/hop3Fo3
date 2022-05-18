@@ -1,0 +1,11 @@
+Array
+(
+)
+Array
+(
+    [usuario] => fvjhv
+    [password] => jgkj
+    [hostname] => 
+    [mac] => 
+    [ip] => ::1
+)

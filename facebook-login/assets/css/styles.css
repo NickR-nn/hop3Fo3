@@ -1,0 +1,207 @@
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+
+* {
+    font-family: "Helvetica Neue", sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+
+section {
+    background-color: #f0f2f5;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+}
+
+img {
+    width: 330px;
+    margin: -33px;
+}
+
+h3 {
+    font-size: 1.65rem;
+    font-weight: 300;
+    width: 420px;
+    margin-top: 20px;
+    line-height: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.18);
+    margin-bottom: 40px;
+}
+
+input {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    width: 100%;
+    height: 50px;
+    font-size: 1rem;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    width: 100%;
+    height: 50px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 8px;
+}
+
+.login-btn:hover {
+    background-color: #166fe5;
+    cursor: pointer;
+}
+
+.forgot-pass {
+    margin: 20px 0;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.forgot-pass:hover {
+    text-decoration: underline;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.create-btn {
+    background-color: #42b72a;
+    color: white;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+.create-btn:hover {
+    cursor: pointer;
+    background-color: #36a420;
+}
+
+.signup {
+    text-align: center;
+}
+
+.createpage {
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+.createpage:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding: 50px 40px;
+}
+
+.langs {
+    margin-bottom: 20px;
+}
+
+.langs a:first-child {
+    color: #737373;
+}
+
+.langs a:first-child:hover {
+    text-decoration: none;
+}
+
+.langs a,
+.sitelinks a,
+.copyright {
+    color: #8a8d91;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 1rem;
+    font-family: "Helvetica 25 UltraLight", sans-serif;
+    line-height: 30px;
+}
+
+.langs a:hover,
+.sitelinks a:hover {
+    text-decoration: underline;
+}
+.more-lang {
+    padding: 2px 0;
+    border: 1px solid #ccd0d5;
+    border-radius: 3px;
+    background-color: #f5f6f7;
+}
+
+.more-lang svg {
+    width: 30px;
+    height: 15px;
+    display: flex;
+    fill: #8a8d91;
+}
+
+.copyright {
+    margin-top: 20px;
+    color: #737373;
+}
+
+@media screen and (max-width: 1050px) {
+    html {
+        font-size: 14px;
+    }
+    section {
+        height: auto;
+        flex-direction: column;
+        padding: 50px 0 80px;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    form {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 474px) {
+    section {
+        height: auto;
+        flex-direction: column;
+        padding: 50px 0 80px;
+    }
+    .text img {
+        width: 250px;
+    }
+    .text h3 {
+        width: 320px;
+        font-size: 1.3rem;
+    }
+    form {
+        margin-top: 30px;
+        width: 320px;
+    }
+}
